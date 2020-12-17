@@ -1,0 +1,15 @@
+
+public class TestaCondicional2 {
+	public static void main(String[] args) {
+		System.out.println("Testando condocionais:");
+		int idade = 5;
+		int quantidadePessoas = 8;
+		if (idade >= 18 || quantidadePessoas > 0 ) {
+			System.out.println("Você tem mais de 18 anos");
+			System.out.println("Seja bem vindo!!!");
+		} else {
+			System.out.println("Infelimente você não pode entrar.");
+
+		}
+	}
+}
